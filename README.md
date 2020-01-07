@@ -1,6 +1,6 @@
 json-and-team | Python Project #1 
 UT Data Analysis & Visualization Bootcamp 
-Team: Erin Bentley, Jason Jones, Sana Khan, Sheetal Bongale
+Team Members: Erin Bentley, Jason Jones, Sana Khan, Sheetal Bongale
 
 PROJECT REQUIREMENTS
 Two to three plots (and think about getting information visualized onto fewer plots). NO PIE CHARTS
@@ -12,10 +12,24 @@ Export dataframe to SQL Database (explained 1/4/2020)
 10 minute presentation
 Use Jupyter Lab to present...no PPT.
 
-Project Name : 
+Project Name: 
 
-API:
+Project Description:
+
+Data Set:
+
+Research Questions:
+
+Actions and Tasks:
+- Obtaining all the data from ---
+- Data Cleaning and Exploration
+- Chart Plotting
+- Writing Analysis
+
+Written Data Analysis:
 
 Resources:
+
+Conclusions:
 
 Further Reading:
