@@ -1,6 +1,6 @@
-# json-and-team | Python Project #1 
-## UT Data Analysis & Visualization Bootcamp 
-### Team Members: Erin Bentley, Jason Jones, Sana Khan, Sheetal Bongale
+##  Python Project #1 | json-and-team 
+#### UT Data Analysis & Visualization Bootcamp 
+#### Team Members: Erin Bentley, Jason Jones, Sana Khan, Sheetal Bongale
 ---
 
 **Project Requirements:**
