@@ -34,8 +34,6 @@ https://data.austintexas.gov/resource/7d8e-dm7r.json
 ### Written Data Analysis:
 
 ### Resources:
-- https://dev.socrata.com/foundry/data.austintexas.gov/7d8e-dm7r
-- https://austintexas.gov/micromobility
 
 ### Conclusions:
 
