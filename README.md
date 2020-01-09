@@ -2,7 +2,6 @@
 ### UT Data Analysis & Visualization Bootcamp 
 ### Team Members: Erin Bentley, Jason Jones, Sana Khan, Sheetal Bongale
 ---
-
 ### Project Requirements:**
 - Two to three plots (and think about getting information visualized onto fewer plots). NO PIE CHARTS
 - Greater than or equal to two datasets
@@ -12,8 +11,8 @@
 - Export dataframe to SQL Database (explained 1/4/2020)
 - 10 minute presentation
 - Use Jupyter Lab to present...no PPT.
-
-### Project Name: Scooters in Austin Data Analysis
+---
+### Project Name: ***Scooters in Austin Data Analysis***
 
 ### Project Description: 
 
@@ -26,7 +25,7 @@ https://data.austintexas.gov/resource/7d8e-dm7r.json
 
 ### Research Questions:
 
-### Actions and Tasks:**
+### Actions and Tasks:
 - Obtaining all the data
 - Data Cleaning and Exploration
 - Chart Plotting
