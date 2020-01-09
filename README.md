@@ -1,9 +1,9 @@
-##  Python Project #1 | json-and-team 
-#### UT Data Analysis & Visualization Bootcamp 
-#### Team Members: Erin Bentley, Jason Jones, Sana Khan, Sheetal Bongale
+##  Scooters in Austin Data Analysis | JSON-and-team 
+### UT Data Analysis & Visualization Bootcamp 
+### Team Members: Erin Bentley, Jason Jones, Sana Khan, Sheetal Bongale
 ---
 
-**Project Requirements:**
+### Project Requirements:**
 - Two to three plots (and think about getting information visualized onto fewer plots). NO PIE CHARTS
 - Greater than or equal to two datasets
 - At least one dataset comes from merging different tables/sources (deliverable)
@@ -13,24 +13,29 @@
 - 10 minute presentation
 - Use Jupyter Lab to present...no PPT.
 
-**Project Name:**
+### Project Name: Scooters in Austin Data Analysis
 
-**Project Description:**
+### Project Description: 
 
-**Data Set:**
+### Data Set:
+* City of Austin 311 OpenData: https://data.austintexas.gov/resource/7d8e-dm7r 
+https://data.austintexas.gov/resource/i26j-ai4z.json
+* Austin Shared Mobility API: https://data.austintexas.gov/Transportation-and-Mobility/Shared-Micromobility-Vehicle-Trips/7d8e-dm7r
+https://data.austintexas.gov/resource/7d8e-dm7r.json
+* FCC API call for lat/long to census tract conversion: https://geo.fcc.gov/api/census/
 
-**Research Questions:**
+### Research Questions:
 
-**Actions and Tasks:**
-- Obtaining all the data from ---
+### Actions and Tasks:**
+- Obtaining all the data
 - Data Cleaning and Exploration
 - Chart Plotting
 - Writing Analysis
 
-**Written Data Analysis:**
+### Written Data Analysis:
 
-**Resources:**
+### Resources:
 
-**Conclusions:**
+### Conclusions:
 
-**Further Reading:**
+### Further Reading:
