@@ -11,8 +11,10 @@
 - Export dataframe to SQL Database (explained 1/4/2020)
 - 10 minute presentation
 - Use Jupyter Lab to present...no PPT.
+
+### Project Name: 
 ---
-### Project Name: ***Scooters in Austin Data Analysis***
+***Scooters in Austin Data Analysis***
 
 ### Project Description: 
 

@@ -11,8 +11,10 @@
 - Export dataframe to SQL Database (explained 1/4/2020)
 - 10 minute presentation
 - Use Jupyter Lab to present...no PPT.
+
+### Project Name: 
 ---
-### Project Name: ***Scooters in Austin Data Analysis***
+***Scooters in Austin Data Analysis***
 
 ### Project Description: 
 
@@ -34,6 +36,8 @@ https://data.austintexas.gov/resource/7d8e-dm7r.json
 ### Written Data Analysis:
 
 ### Resources:
+- https://dev.socrata.com/foundry/data.austintexas.gov/7d8e-dm7r
+- https://austintexas.gov/micromobility
 
 ### Conclusions:
 
