@@ -2,7 +2,7 @@
 ### Team Members: Erin Bentley, Jason Jones, Sana Khan, Sheetal Bongale
 #### UT Data Analysis & Visualization Bootcamp | Python Project 1 | January 2020
 ---
-<img src=“austin.png”/>
+![Austin Scooter](austin.png)
 
 ### Project Requirements:
 - Two to three plots (and think about getting information visualized onto fewer plots). NO PIE CHARTS
