@@ -12,7 +12,7 @@
 After cleaning and data munging:
 - shared_mobility_AODP
 - 311_AODP
-- shared_mobility_merged_zip
+- shared_mobility_merged_zip (This can be done in shared_mobility_AODP too)
     
 Convert these df into csv in their respective notebooks and then load them into a new notebook:
 - scooter_data_analysis (for analysis and plotting - this is our main master)
