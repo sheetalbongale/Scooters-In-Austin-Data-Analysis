@@ -20,7 +20,7 @@
 
 - Do the most popular zip codes to start or end rides also have the most complaints?
 - Does frequency of ending scooter rides in zipcode impact complaints when adjusted on per capita basis?
-- Number of rides in certain months of the year vs Number of complains
+- Number of rides in certain months of the year.
 - Does the distance of the trip impact the method of transportation (scooter vs. bicycle)
 - What are the 10 most frequent routes for all methods?
 
@@ -46,14 +46,26 @@ We figured these would be neighborhoods that are not as popular start points, wh
 - Writing Analysis and Conclusions
 
 ### Conclusions:
+
+**Observations:**
+1. 78701 Zipcode has the most number of starting and ending rides.
+2. 78701 also had the most 311 complaints about shared mobility and dockless vehicles.
+3. Saturday was the most popular day to ride a bicycle or a scooter. Also, Weekend spike indicates people like to ride scooters recreationally, or while they are enjoying activities that are outside of their normal weekly commute.
+4. We can see there is a rush hour after work. We saw a peak in the number of rides at 5pm and also before & after 5pm. 
+5. October, September and March have the most rides. This is when the weather is nicest in Austin, but also when the biggest Music festivals are. 
+
 **Major limitations in our data:**
-1. One data set is limited by geography, we can’t get more specific than census tract
+1. The data set for the shared mobility data is limited by geography, we can’t get more specific than census tract. Hence we used Census tract shapefiles and geopandas.
 2. 311 data was not clear about what the complaints were specifically about — you would have to manually find them on the 311. We also couldn’t see if it was business, resident, or passerby.
-3. Joyriding, some rides are really short— some people just turn scooters on and don’t seem to take it anywhere. 
+3. Joyriding, some rides are really short— some people just turn scooters on and don’t seem to take it anywhere. Our overall hypothesis and the census tract choropeth plots will change if we discard all the rows for rides with '0'meter distance.
 4. We’d like to isolate the music festival dates out and see how much those specific dates impact the data.
 5. 78701: Neighborhoods that are mostly commercial have a lot of people who work there, own businesses there, walk around there, but do not show up in the population. It is possible that business owners are more likely to complain because they are made less available to customers due to scooter issues. Nearly 100k people work in downtown Austin which is drastically different from the number of people who are living there. We saw rush hour right after work.
 
-### Resources:
+### Resources Used:
+- Census Tracts Shapefiles: https://www2.census.gov/geo/tiger/TIGER2010/TRACT/2000/
+- Austin Streetlines: https://data.austintexas.gov/Locations-and-Maps/Street-Centerline/m5w3-uea6
+
+### Documentation about Dataset:
 - https://dev.socrata.com/foundry/data.austintexas.gov/7d8e-dm7r
 - https://dev.socrata.com/foundry/data.austintexas.gov/i26j-ai4z
 - https://austintexas.gov/micromobility
