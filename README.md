@@ -45,6 +45,13 @@ We figured these would be neighborhoods that are not as popular start points, wh
 - Data Story and Visualization
 - Writing Analysis and Conclusions
 
+### Notebooks:
+- *shared_mobility_data_wrangling.ipynb:* Data munging and generates clean data CSV file for the Shared Mobility API Data. Also contains script to merge zipcodes to census tracts. The final merged CSV file is what we use for further analysis and visualization.
+- *shared_mobility_data_story.ipynb:* Data Visualization for shared mobility and some incomplete further work.
+- *311_data_wrangling.ipynb:* Data munging and generates clean data CSV file for the 311 Complaints API Data. 
+- *311_data_story.ipynb:* Data Visualization for 311 data.
+- *write_to_sql.py:* Convert the 311 dataframe to SQL Database.
+
 ### Conclusions:
 
 **Observations:**
