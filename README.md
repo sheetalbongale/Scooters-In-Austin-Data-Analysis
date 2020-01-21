@@ -4,6 +4,9 @@
 ---
 ![Austin Scooter](resources/austin.png)
 
+### *`"In 2018, people took 84 million trips on Shared Micromobility in the United States, more than double the number of trips taken in 2017." - NACTO"`*
+
+
 ### Project Requirements:
 - Two to three plots (and think about getting information visualized onto fewer plots). NO PIE CHARTS
 - Greater than or equal to two datasets
