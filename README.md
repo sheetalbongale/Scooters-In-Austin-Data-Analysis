@@ -81,7 +81,7 @@ We figured these would be neighborhoods that are not as popular start points, wh
 - NumPy
 - Matplotlib 
 - GeoPandas
-- Plotly.py
+- Plotly
 - SQLAlchemy
 
 ### Resources Used:
