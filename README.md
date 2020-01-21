@@ -4,7 +4,7 @@
 ---
 ![Austin Scooter](resources/austin.png)
 
-#### *`"In 2018, people took 84 million trips on Shared Micromobility in the United States, more than double the number of trips taken in 2017." - NACTO"`*
+#### *`"In 2018, people took 84 million trips on Shared Micromobility in the United States, more than double the number of trips taken in 2017." - NACTO`*
 
 
 ### Project Requirements:
@@ -27,7 +27,6 @@
 - Does the distance of the trip impact the method of transportation (scooter vs. bicycle)
 - What are the 10 most frequent routes for all methods?
 
-
 #### Hypothesis:
 
 While we thought that obviously the neighborhoods with the most rides would likely have the most complaints, we also thought that some neighborhoods complain about a higher percent of the scooters that enter their area than other neighborhoods do.
@@ -40,7 +39,7 @@ We figured these would be neighborhoods that are not as popular start points, wh
 * Austin Shared Mobility API: https://data.austintexas.gov/Transportation-and-Mobility/Shared-Micromobility-Vehicle-Trips/7d8e-dm7r
     - API Endpoint: https://data.austintexas.gov/resource/7d8e-dm7r.json
     
-* FCC API call for lat/long to census tract conversion: https://geo.fcc.gov/api/census/
+* Census tract to zipcode conversion: https://www.huduser.gov/portal/datasets/usps_crosswalk.html
 
 ### Actions and Tasks:
 - Data Extraction
