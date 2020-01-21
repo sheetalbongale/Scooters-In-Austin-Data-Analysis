@@ -77,10 +77,10 @@ We figured these would be neighborhoods that are not as popular start points, wh
 
 ### Technologies Used:
 ---
-`Pandas
-NumPy
-Matplotlib
-GeoPandas
+`Pandas <br> 
+NumPy <br> 
+Matplotlib <br> 
+GeoPandas <br> 
 Plotly.py`
 
 ### Resources Used:
