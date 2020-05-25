@@ -1,5 +1,4 @@
 ##  Scooters in Austin Data Analysis
-### Team Members: Erin Bentley, Jason Jones, Sana Khan, Sheetal Bongale 
 #### UT Data Analysis & Visualization Bootcamp | January 2020
 ---
 ![Austin Scooter](resources/austin.png)
@@ -108,3 +107,4 @@ We figured these would be neighborhoods that are not as popular start points, wh
 
 
 ![Scooter meme](resources/scooters_meme.png)
+### Team Members: Erin Bentley, Jason Jones, Sana Khan, Sheetal Bongale 
