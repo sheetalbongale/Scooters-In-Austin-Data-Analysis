@@ -1,6 +1,5 @@
-##  Scooters in Austin Data Analysis
-#### UT Data Analysis & Visualization Bootcamp | January 2020
----
+# Scooters (Shared Mobility) in Austin Data Analysis
+
 ![Austin Scooter](resources/austin.png)
 
 #### *`"In 2018, people took 84 million trips on Shared Micromobility in the United States, more than double the number of trips taken in 2017." - NACTO`*
@@ -105,6 +104,7 @@ We figured these would be neighborhoods that are not as popular start points, wh
 - https://dev.socrata.com/foundry/data.austintexas.gov/i26j-ai4z
 - https://austintexas.gov/micromobility
 
+### Team Members: Erin Bentley, Jason Jones, Sana Khan, Sheetal Bongale 
+#### UT Data Analysis & Visualization Bootcamp | January 2020
 
 ![Scooter meme](resources/scooters_meme.png)
-### Team Members: Erin Bentley, Jason Jones, Sana Khan, Sheetal Bongale 
