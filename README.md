@@ -1,23 +1,10 @@
-##  Scooters in Austin Data Analysis | JSON-and-team 
-### Team Members: Erin Bentley, Jason Jones, Sana Khan, Sheetal Bongale
-#### UT Data Analysis & Visualization Bootcamp | Python Project 1 | January 2020
+##  Scooters in Austin Data Analysis
+### Team Members: Erin Bentley, Jason Jones, Sana Khan, Sheetal Bongale 
+#### UT Data Analysis & Visualization Bootcamp | January 2020
 ---
 ![Austin Scooter](resources/austin.png)
 
 #### *`"In 2018, people took 84 million trips on Shared Micromobility in the United States, more than double the number of trips taken in 2017." - NACTO`*
-
-
-### Project Requirements:
----
-- Two to three plots (and think about getting information visualized onto fewer plots). NO PIE CHARTS
-- Greater than or equal to two datasets
-- At least one dataset comes from merging different tables/sources (deliverable)
-- At least 1 dirty dataset (not Kaggle)
-- At least one API used
-- Export dataframe to SQL Database (explained 1/4/2020)
-- 10 minute presentation
-- Use Jupyter Lab to present...no PPT.
----
 
 ### Our Question:
 ---
@@ -42,31 +29,55 @@ We figured these would be neighborhoods that are not as popular start points, wh
     
 * Census tract to zipcode conversion: https://www.huduser.gov/portal/datasets/usps_crosswalk.html
 
-### Actions and Tasks:
+## Actions and Tasks:
 ---
 - Data Extraction
 - Data Cleaning and Exploration
 - Data Story and Visualization
 - Writing Analysis and Conclusions
 
-### Notebooks:
----
+## Notebooks:
+
 - [shared_mobility_data_wrangling.ipynb](https://github.com/sheetalbongale/Scooters_In_Austin_Data_Analysis/blob/master/notebooks/shared_mobility_data_analysis/shared_mobility_data_wrangling.ipynb): Data munging and generates clean data CSV file for the Shared Mobility API Data. Also contains script to merge zipcodes to census tracts. The final merged CSV file is what we use for further analysis and visualization.
 - [shared_mobility_data_story.ipynb](https://github.com/sheetalbongale/Scooters_In_Austin_Data_Analysis/blob/master/notebooks/shared_mobility_data_analysis/shared_mobility_data_story.ipynb): Data Visualization for shared mobility and some incomplete further work.
 - [311_data_wrangling.ipynb](https://github.com/sheetalbongale/Scooters_In_Austin_Data_Analysis/blob/master/notebooks/311_complaints_data_analysis/311_data_wrangling.ipynb): Data munging and generates clean data CSV file for the 311 Complaints API Data. 
 - [311_data_story.ipynb](https://github.com/sheetalbongale/Scooters_In_Austin_Data_Analysis/blob/master/notebooks/311_complaints_data_analysis/311_data_story.ipynb): Data Visualization for 311 data.
 - *write_to_sql.py:* Convert the 311 dataframe to SQL Database.
 
+## Analysis & Conclusions:
 
-### Conclusions:
----
-
-**Observations:**
 1. 78701 Zipcode has the most number of starting and ending rides.
 2. 78701 also had the most 311 complaints about shared mobility and dockless vehicles.
 3. Saturday was the most popular day to ride a bicycle or a scooter. Also, Weekend spike indicates people like to ride scooters recreationally, or while they are enjoying activities that are outside of their normal weekly commute.
 4. We can see there is a rush hour after work. We saw a peak in the number of rides at 5pm and also before & after 5pm. 
 5. October, September and March have the most rides. This is when the weather is nicest in Austin, but also when the biggest Music festivals are. 
+
+### Which hours of the day are most popular?
+![trips_per_hour.png](notebooks/shared_mobility_data_analysis/Plots/trips_per_hour.png)
+
+### What are the most popular days of the week?
+![trips_per_week.png](notebooks/shared_mobility_data_analysis/Plots/trips_per_week.png)
+
+### Are some months more popular than others?
+![trips_per_month2.png](notebooks/shared_mobility_data_analysis/Plots/trips_per_month1.png)
+
+### Total daily rides per hour for each day of the week?
+![dailyrides_per_hour.png](notebooks/shared_mobility_data_analysis/Plots/dailyrides_per_hour.png)
+
+### Which census tracts have the most traffic?
+![trips_per_censustract.png](notebooks/shared_mobility_data_analysis/Plots/trips_per_censustract.png)
+
+### What are the most popular Census Tracts to start a ride?
+![choropeth_tractstart.png](notebooks/shared_mobility_data_analysis/Plots/choropeth_tractstart_2019.png)
+
+### What are the most popular Census Tracts to end a ride?
+![choropeth_tractsend.png](notebooks/shared_mobility_data_analysis/Plots/choropeth_tractend_2019.png)
+
+### Which Zipcodes have the most traffic? (Without per capita factor)
+![trips_per_zipcode.png](notebooks/shared_mobility_data_analysis/Plots/trips_per_zipcode.png)
+
+### What are the top 200 popular routes to start and end rides?
+![trips_popularroutes.png](notebooks/shared_mobility_data_analysis/Plots/popular_routes_top200.png)
 
 **Major limitations in our data:**
 1. The data set for the shared mobility data is limited by geography, we can’t get more specific than census tract. Hence we used Census tract shapefiles and geopandas.
