@@ -17,8 +17,8 @@
 While we thought that obviously the neighborhoods with the most rides would likely have the most complaints, we also thought that some neighborhoods complain about a higher percent of the scooters that enter their area than other neighborhoods do.
 We figured these would be neighborhoods that are not as popular start points, who see the scooters longer and thus are more likely to complain.
 
-### Data Set:
----
+## Data Set:
+
 * City of Austin 311 OpenData: https://data.austintexas.gov/City-Government/311-Unified-Data-Test-Site-2019/i26j-ai4z
     - API Endpoint: https://data.austintexas.gov/resource/i26j-ai4z.json
     
@@ -27,8 +27,17 @@ We figured these would be neighborhoods that are not as popular start points, wh
     
 * Census tract to zipcode conversion: https://www.huduser.gov/portal/datasets/usps_crosswalk.html
 
+## Technologies Used:
+
+- Pandas 
+- NumPy
+- Matplotlib 
+- GeoPandas
+- Plotly.js
+- SQLAlchemy
+
 ## Actions and Tasks:
----
+
 - Data Extraction
 - Data Cleaning and Exploration
 - Data Story and Visualization
@@ -84,27 +93,18 @@ We figured these would be neighborhoods that are not as popular start points, wh
 4. We’d like to isolate the music festival dates out and see how much those specific dates impact the data.
 5. 78701: Neighborhoods that are mostly commercial have a lot of people who work there, own businesses there, walk around there, but do not show up in the population. It is possible that business owners are more likely to complain because they are made less available to customers due to scooter issues. Nearly 100k people work in downtown Austin which is drastically different from the number of people who are living there. We saw rush hour right after work.
 
-### Technologies Used:
----
-- Pandas 
-- NumPy
-- Matplotlib 
-- GeoPandas
-- Plotly
-- SQLAlchemy
+## Resources Used:
 
-### Resources Used:
----
 - Census Tracts Shapefiles: https://www2.census.gov/geo/tiger/TIGER2010/TRACT/2000/
 - Austin Streetlines: https://data.austintexas.gov/Locations-and-Maps/Street-Centerline/m5w3-uea6
 
-### Documentation about Dataset:
----
+## Documentation about Dataset:
+
 - https://dev.socrata.com/foundry/data.austintexas.gov/7d8e-dm7r
 - https://dev.socrata.com/foundry/data.austintexas.gov/i26j-ai4z
 - https://austintexas.gov/micromobility
 
 ### Team Members: Erin Bentley, Jason Jones, Sana Khan, Sheetal Bongale 
-#### UT Data Analysis & Visualization Bootcamp | January 2020
+### UT Data Analysis & Visualization Bootcamp | January 2020
 
 ![Scooter meme](resources/scooters_meme.png)
