@@ -1,19 +1,19 @@
-# Scooters (Shared Mobility) in Austin Data Analysis
+# Scooters (Shared Mobility) in Austin - Data Analysis
 
 ![Austin Scooter](resources/austin.png)
 
-#### *`"In 2018, people took 84 million trips on Shared Micromobility in the United States, more than double the number of trips taken in 2017." - NACTO`*
+#### *`"In 2018, people took 84 million trips on Shared Micromobility in the United States, more than double the number of trips taken in 2017" - NACTO`*
 
-### Our Question:
----
+## Our Question:
+
 - Do the most popular zip codes to start or end rides also have the most complaints?
 - Does frequency of ending scooter rides in zipcode impact complaints when adjusted on per capita basis?
 - Number of rides in certain months of the year.
 - Does the distance of the trip impact the method of transportation (scooter vs. bicycle)
 - What are the 10 most frequent routes for all methods?
 
-### Hypothesis:
----
+## Hypothesis:
+
 While we thought that obviously the neighborhoods with the most rides would likely have the most complaints, we also thought that some neighborhoods complain about a higher percent of the scooters that enter their area than other neighborhoods do.
 We figured these would be neighborhoods that are not as popular start points, who see the scooters longer and thus are more likely to complain.
 
@@ -85,6 +85,9 @@ We figured these would be neighborhoods that are not as popular start points, wh
 
 ### What are the top 200 popular routes to start and end rides?
 ![trips_popularroutes.png](notebooks/shared_mobility_data_analysis/Plots/popular_routes_top200.png)
+
+### What locations in Austin get the most complaints about shared mobility??
+![complains.png](resources/complains.png)
 
 **Major limitations in our data:**
 1. The data set for the shared mobility data is limited by geography, we can’t get more specific than census tract. Hence we used Census tract shapefiles and geopandas.
