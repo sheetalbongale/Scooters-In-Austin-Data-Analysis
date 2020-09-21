@@ -4,6 +4,7 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+black = "*"
 
 [packages]
 ipykernel = "*"
@@ -22,6 +23,12 @@ descartes = "*"
 shapefile = "*"
 plotly = "*"
 black = "*"
+sqlalchemy = "*"
+nb-black = "*"
+nbformat = "*"
 
 [requires]
 python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
